@@ -3,11 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "dev":"node server.js",
-    "heroku-postbuild":"npm run build"
+    "heroku-postbuild":"node server.js"
   },
   "dependencies": {
     "express": "^4.17.3",
