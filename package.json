@@ -6,7 +6,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "dev":"node server.js"
+    "dev":"node server.js",
+    "heroku-postbuild":"npm run build"
   },
   "dependencies": {
     "express": "^4.17.3",
