@@ -3,12 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "dev":"node server.js"
   },
   "dependencies": {
+    "express": "^4.17.3",
     "next": "12.1.4",
     "react": "18.0.0",
     "react-dom": "18.0.0"
